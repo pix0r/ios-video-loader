@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274ACA7314EEDAC500B68AB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274ACA7214EEDAC500B68AB2 /* UIKit.framework */; };
+		274ACA7514EEDAC500B68AB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274ACA7414EEDAC500B68AB2 /* Foundation.framework */; };
+		274ACA7714EEDAC500B68AB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274ACA7614EEDAC500B68AB2 /* CoreGraphics.framework */; };
+		274ACA7D14EEDAC500B68AB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274ACA7B14EEDAC500B68AB2 /* InfoPlist.strings */; };
+		274ACA7F14EEDAC500B68AB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ACA7E14EEDAC500B68AB2 /* main.m */; };
+		274ACA8314EEDAC500B68AB2 /* FYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ACA8214EEDAC500B68AB2 /* FYAppDelegate.m */; };
+		274ACA8614EEDAC500B68AB2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274ACA8414EEDAC500B68AB2 /* MainStoryboard.storyboard */; };
+		274ACA8914EEDAC500B68AB2 /* FYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274ACA8814EEDAC500B68AB2 /* FYViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		274ACA6E14EEDAC500B68AB2 /* VideoLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274ACA7214EEDAC500B68AB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		274ACA7414EEDAC500B68AB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		274ACA7614EEDAC500B68AB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		274ACA7A14EEDAC500B68AB2 /* VideoLoader-Info.plist */ = {isa = PBXFileReference; path = "VideoLoader-Info.plist"; sourceTree = "<group>"; };
+		274ACA7C14EEDAC500B68AB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		274ACA7E14EEDAC500B68AB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		274ACA8014EEDAC500B68AB2 /* VideoLoader-Prefix.pch */ = {isa = PBXFileReference; path = "VideoLoader-Prefix.pch"; sourceTree = "<group>"; };
+		274ACA8114EEDAC500B68AB2 /* FYAppDelegate.h */ = {isa = PBXFileReference; path = FYAppDelegate.h; sourceTree = "<group>"; };
+		274ACA8214EEDAC500B68AB2 /* FYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYAppDelegate.m; sourceTree = "<group>"; };
+		274ACA8514EEDAC500B68AB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		274ACA8714EEDAC500B68AB2 /* FYViewController.h */ = {isa = PBXFileReference; path = FYViewController.h; sourceTree = "<group>"; };
+		274ACA8814EEDAC500B68AB2 /* FYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274ACA6B14EEDAC500B68AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274ACA7314EEDAC500B68AB2 /* UIKit.framework in Frameworks */,
+				274ACA7514EEDAC500B68AB2 /* Foundation.framework in Frameworks */,
+				274ACA7714EEDAC500B68AB2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274ACA6314EEDAC500B68AB2 = {
+			isa = PBXGroup;
+			children = (
+				274ACA7814EEDAC500B68AB2 /* VideoLoader */,
+				274ACA7114EEDAC500B68AB2 /* Frameworks */,
+				274ACA6F14EEDAC500B68AB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274ACA6F14EEDAC500B68AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274ACA6E14EEDAC500B68AB2 /* VideoLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274ACA7114EEDAC500B68AB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274ACA7214EEDAC500B68AB2 /* UIKit.framework */,
+				274ACA7414EEDAC500B68AB2 /* Foundation.framework */,
+				274ACA7614EEDAC500B68AB2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		274ACA7814EEDAC500B68AB2 /* VideoLoader */ = {
+			isa = PBXGroup;
+			children = (
+				274ACA8114EEDAC500B68AB2 /* FYAppDelegate.h */,
+				274ACA8214EEDAC500B68AB2 /* FYAppDelegate.m */,
+				274ACA8414EEDAC500B68AB2 /* MainStoryboard.storyboard */,
+				274ACA8714EEDAC500B68AB2 /* FYViewController.h */,
+				274ACA8814EEDAC500B68AB2 /* FYViewController.m */,
+				274ACA7914EEDAC500B68AB2 /* Supporting Files */,
+			);
+			path = VideoLoader;
+			sourceTree = "<group>";
+		};
+		274ACA7914EEDAC500B68AB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274ACA7A14EEDAC500B68AB2 /* VideoLoader-Info.plist */,
+				274ACA7B14EEDAC500B68AB2 /* InfoPlist.strings */,
+				274ACA7E14EEDAC500B68AB2 /* main.m */,
+				274ACA8014EEDAC500B68AB2 /* VideoLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274ACA6D14EEDAC500B68AB2 /* VideoLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274ACA8C14EEDAC500B68AB2 /* Build configuration list for PBXNativeTarget "VideoLoader" */;
+			buildPhases = (
+				274ACA6A14EEDAC500B68AB2 /* Sources */,
+				274ACA6B14EEDAC500B68AB2 /* Frameworks */,
+				274ACA6C14EEDAC500B68AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoLoader;
+			productName = VideoLoader;
+			productReference = 274ACA6E14EEDAC500B68AB2 /* VideoLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274ACA6514EEDAC500B68AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Flying Yeti";
+			};
+			buildConfigurationList = 274ACA6814EEDAC500B68AB2 /* Build configuration list for PBXProject "VideoLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 274ACA6314EEDAC500B68AB2;
+			productRefGroup = 274ACA6F14EEDAC500B68AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274ACA6D14EEDAC500B68AB2 /* VideoLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274ACA6C14EEDAC500B68AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274ACA7D14EEDAC500B68AB2 /* InfoPlist.strings in Resources */,
+				274ACA8614EEDAC500B68AB2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274ACA6A14EEDAC500B68AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274ACA7F14EEDAC500B68AB2 /* main.m in Sources */,
+				274ACA8314EEDAC500B68AB2 /* FYAppDelegate.m in Sources */,
+				274ACA8914EEDAC500B68AB2 /* FYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		274ACA7B14EEDAC500B68AB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274ACA7C14EEDAC500B68AB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		274ACA8414EEDAC500B68AB2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274ACA8514EEDAC500B68AB2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274ACA8A14EEDAC500B68AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		274ACA8B14EEDAC500B68AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274ACA8D14EEDAC500B68AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoLoader/VideoLoader-Prefix.pch";
+				INFOPLIST_FILE = "VideoLoader/VideoLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		274ACA8E14EEDAC500B68AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoLoader/VideoLoader-Prefix.pch";
+				INFOPLIST_FILE = "VideoLoader/VideoLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274ACA6814EEDAC500B68AB2 /* Build configuration list for PBXProject "VideoLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274ACA8A14EEDAC500B68AB2 /* Debug */,
+				274ACA8B14EEDAC500B68AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274ACA8C14EEDAC500B68AB2 /* Build configuration list for PBXNativeTarget "VideoLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274ACA8D14EEDAC500B68AB2 /* Debug */,
+				274ACA8E14EEDAC500B68AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274ACA6514EEDAC500B68AB2 /* Project object */;
+}
