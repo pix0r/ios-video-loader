@@ -22,14 +22,14 @@
 		274ACA7214EEDAC500B68AB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		274ACA7414EEDAC500B68AB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		274ACA7614EEDAC500B68AB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		274ACA7A14EEDAC500B68AB2 /* VideoLoader-Info.plist */ = {isa = PBXFileReference; path = "VideoLoader-Info.plist"; sourceTree = "<group>"; };
+		274ACA7A14EEDAC500B68AB2 /* VideoLoader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoLoader-Info.plist"; sourceTree = "<group>"; };
 		274ACA7C14EEDAC500B68AB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		274ACA7E14EEDAC500B68AB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		274ACA8014EEDAC500B68AB2 /* VideoLoader-Prefix.pch */ = {isa = PBXFileReference; path = "VideoLoader-Prefix.pch"; sourceTree = "<group>"; };
-		274ACA8114EEDAC500B68AB2 /* FYAppDelegate.h */ = {isa = PBXFileReference; path = FYAppDelegate.h; sourceTree = "<group>"; };
+		274ACA8014EEDAC500B68AB2 /* VideoLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoLoader-Prefix.pch"; sourceTree = "<group>"; };
+		274ACA8114EEDAC500B68AB2 /* FYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYAppDelegate.h; sourceTree = "<group>"; };
 		274ACA8214EEDAC500B68AB2 /* FYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYAppDelegate.m; sourceTree = "<group>"; };
 		274ACA8514EEDAC500B68AB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		274ACA8714EEDAC500B68AB2 /* FYViewController.h */ = {isa = PBXFileReference; path = FYViewController.h; sourceTree = "<group>"; };
+		274ACA8714EEDAC500B68AB2 /* FYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYViewController.h; sourceTree = "<group>"; };
 		274ACA8814EEDAC500B68AB2 /* FYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
